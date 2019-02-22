@@ -1,0 +1,67 @@
+#main {
+    background: linear-gradient(to bottom right, rgb(50, 150, 250), rgba(85, 158, 192, 0.2), rgb(50, 150, 250));
+    display: grid;
+    justify-items: center;
+}
+#heading {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+#title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 3em;
+    font-family: "segoe UI";
+}
+.styling {
+    width: 60%;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#img-div {
+    display: grid;
+    justify-items: center;
+}
+#image {
+    max-width: 400px;
+    display: block;
+    height: auto;
+    margin: 10px;
+    box-shadow: 3px 3px gray;
+}
+#img-caption {
+    font-family: "Roboto slab", serif;
+    font-size: 16px;
+}
+#tribute-info {
+    display: grid;
+    text-align: center;
+    font-family: "segoe UI";
+}
+hr {
+    width: 90%;
+    height: 1px;
+    color: #606060;
+}
+#quote {
+    font-style: italic;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    margin: 20px 0px;
+}
+footer {
+    text-align: center;
+    font-family: "Roboto slab", "segoe ui";
+}
+#tribute-link {
+    color: #101010;
+}
+#tribute-link:hover {
+    color: #606060;
+    font-size: 102%;
+}
