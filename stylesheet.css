@@ -66,3 +66,16 @@ footer {
     color: #606060;
     font-size: 102%;
 }
+@media (max-width: 900px) {
+    .styling {
+        width: 80%;
+        margin: 10px 0px;
+        padding: 10px;
+    }
+    #image {
+        max-width: 60%;
+        display: block;
+        height: auto;
+        margin: 10px;
+    }
+}
